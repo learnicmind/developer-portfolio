@@ -9,14 +9,14 @@ section {
     color: #FD6E0A;
 }
 .btn-primary {
-    height: 64px;
+    height: 60px;
     border-radius: 5px;
     background: #FD6E0A;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 18px 35;
+    padding: 10px 20px;
 }
 .header {
     background: #FFF8F3;
@@ -103,10 +103,7 @@ main {
 
 /* what i do section styles */
 
-.what-i-do {
-    /* margin-top: 130px; */
-    
-}
+
 .skills-container {
     display: flex;
     gap: 24px;
@@ -129,3 +126,30 @@ main {
 /* end of skill section */
 
 /* start of resume section */
+.resume-content {
+    margin: o auto;
+    display: flex;
+}
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description {
+    color: #757575;
+}
+.resume-btn{
+    margin-top: 50px;
+}
